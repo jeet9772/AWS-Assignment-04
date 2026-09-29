@@ -677,6 +677,9 @@ terraform project files
 
 ```text
 Screenshot:
+
+<img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 30 14 AM" src="https://github.com/user-attachments/assets/292c77cd-35bf-41a6-832c-fc4df2143a72" />
+
 AWS VPC showing redis-vpc
 ```
 
@@ -684,6 +687,8 @@ AWS VPC showing redis-vpc
 
 ```text
 Screenshot:
+<img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 31 05 AM" src="https://github.com/user-attachments/assets/98426f37-ef7b-4983-8e05-d0f54da939f2" />
+
 Public and Private Subnets
 ```
 
@@ -694,12 +699,17 @@ Screenshot:
 redis-igw
 ```
 
+<img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 31 50 AM" src="https://github.com/user-attachments/assets/fe606ba8-a887-4557-bb60-d09724a39b98" />
+
+
 ### 5. Route Table
 
 ```text
 Screenshot:
 redis-public-rt
 ```
+<img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 32 35 AM" src="https://github.com/user-attachments/assets/b1e1be16-c58b-4e22-a976-4725ebf9bd62" />
+
 
 ### 6. Security Group
 
@@ -708,12 +718,16 @@ Screenshot:
 redis-sg with TCP 6379
 ```
 
+<img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 33 45 AM" src="https://github.com/user-attachments/assets/6d4eafb4-e4c0-4e74-b986-c4602b0e29fa" />
+
 ### 7. Redis EC2
 
 ```text
 Screenshot:
 redis-server instance
 ```
+<img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 34 26 AM" src="https://github.com/user-attachments/assets/e6a57eda-fabf-4577-833a-17d461ec902f" />
+
 
 ### 8. S3 Remote State
 
@@ -721,6 +735,8 @@ redis-server instance
 Screenshot:
 jeetendra-redis-tf-state-2026
 ```
+<img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 35 22 AM" src="https://github.com/user-attachments/assets/26f5bfb6-3881-4d8c-ad69-87d3cdd911b4" />
+
 
 ### 9. S3 Versioning
 
@@ -728,6 +744,8 @@ jeetendra-redis-tf-state-2026
 Screenshot:
 S3 bucket versioning enabled
 ```
+<img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 39 35 AM" src="https://github.com/user-attachments/assets/61d1257e-6228-438d-b74f-7c8b1c2e7d4b" />
+
 
 ### 10. Terraform Plan
 
@@ -735,6 +753,7 @@ S3 bucket versioning enabled
 Screenshot:
 No changes. Your infrastructure matches the configuration.
 ```
+<img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 40 34 AM" src="https://github.com/user-attachments/assets/b70b269a-2847-4b4e-bcda-c9c38e29d9ab" />
 
 ### 11. Terraform Output
 
@@ -742,6 +761,7 @@ No changes. Your infrastructure matches the configuration.
 Screenshot:
 terraform output
 ```
+<img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 42 44 AM" src="https://github.com/user-attachments/assets/e91ab6c5-e148-4a3b-acfb-b1ad5cd49766" />
 
 ---
 
@@ -764,9 +784,9 @@ terraform output
 | State Migration            | ✅      |
 | Terraform Outputs          | ✅      |
 | Terraform Plan             | ✅      |
-| Redis Service Verification | ⏳      |
-| Redis Connectivity Test    | ⏳      |
-| Git Push                   | ⏳      |
+| Redis Service Verification |         |
+| Redis Connectivity Test    |  DONE   |
+| Git Push                   |         |
 
 ---
 
