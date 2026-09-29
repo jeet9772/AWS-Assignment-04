@@ -668,14 +668,14 @@ The following screenshots can be added to document the assignment:
 
 ### 1. Terraform Directory
 
-```text
+
 Screenshot:
 terraform project files
 ```
 
 ### 2. VPC
 
-```text
+
 Screenshot:
 
 <img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 30 14 AM" src="https://github.com/user-attachments/assets/292c77cd-35bf-41a6-832c-fc4df2143a72" />
@@ -685,7 +685,7 @@ AWS VPC showing redis-vpc
 
 ### 3. Subnets
 
-```text
+
 Screenshot:
 <img width="1440" height="900" alt="Screenshot 2026-09-30 at 1 31 05 AM" src="https://github.com/user-attachments/assets/98426f37-ef7b-4983-8e05-d0f54da939f2" />
 
