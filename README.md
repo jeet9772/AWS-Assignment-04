@@ -765,6 +765,10 @@ terraform output
 
 # 🧪 Verification Checklist
 
+
+
+<img width="1440" height="900" alt="Screenshot 2026-10-01 at 1 27 13 PM" src="https://github.com/user-attachments/assets/2eef47e3-98d7-4021-b968-184abaaca354" />
+
 | Component                  | Status |
 | -------------------------- | ------ |
 | Terraform Provider         | ✅      |
